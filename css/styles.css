@@ -6,8 +6,8 @@ body{
     transition: 0.5s;
 }
 .text{
-    top:50%;
-    left: 50%;
+    top: 50%;
+    left: 45%;
     color: white;
     position: absolute;
 }
@@ -16,15 +16,15 @@ body{
     font-family: 'Arvo', serif;
 }
 #to{
-    padding-left: 10px;
+    padding-left: 30px;
     font-family: 'Arvo', serif;
 }
 #delani{
-    margin-left: -60px;
+    margin-left: -80px;
     font-family: 'Arvo', serif;
 }
 #paragraph1{
-    margin-left: -160px;
+    margin-left: -200px;
     font-family: 'Arvo', serif;
 }
 #background-image2{
@@ -33,7 +33,7 @@ body{
     
 }
 #mouse-click{
-    padding-left: 25px;
+    padding-left: 40px;
 }
 @keyframes slide{
     0% { transform: translateY(10%);}
@@ -52,6 +52,10 @@ body{
 .page2{
     position: relative;
     transition: 0.5s;
+}
+.about-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .about-us > h1,.text2 > h1,.portfolio > h1{
     text-align: center;
@@ -87,14 +91,14 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 78%;
-    position: fixed;
-
+       
 }
 .design-showing,.development-showing,.product-showing{
     display: none;
     width: 20%;
+    font-size: 78%;
 }
+
 .projects{
     display: flex;
     align-content: space-around;
@@ -119,6 +123,12 @@ input{
     width: 600px;
     margin-top: 10px;
     
+}
+#submit{
+
+    color: white;
+    border: 2px solid white;
+
 }
 .media{
     margin-top: 140px;
