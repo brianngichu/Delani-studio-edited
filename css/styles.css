@@ -1,0 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+.page1{
+    position: relative;
+    transition: 0.5s;
+}
