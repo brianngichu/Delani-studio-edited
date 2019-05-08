@@ -49,3 +49,22 @@ body{
     animation-play-state: running;
     animation-timing-function: ease-in-out;
 }
+.page2{
+    position: relative;
+    transition: 0.5s;
+}
+.about-us > h1,.text2 > h1,.portfolio > h1{
+    text-align: center;
+
+}
+.about-us >p{
+    padding-left: 200px;
+}
+#agile{
+    text-align: center;
+    padding-right: 200px;
+}
+.approach{
+    padding-left: 300px;
+    
+}
