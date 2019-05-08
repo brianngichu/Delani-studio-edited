@@ -68,3 +68,13 @@ body{
     padding-left: 300px;
     
 }
+.text2{
+    margin-top: -280px;
+    color: white;
+}
+.text2 > p{
+    margin-left:280px
+}
+.services > img{
+    z-index:-2;
+}
