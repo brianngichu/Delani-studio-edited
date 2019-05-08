@@ -5,3 +5,47 @@ body{
     position: relative;
     transition: 0.5s;
 }
+.text{
+    top:50%;
+    left: 50%;
+    color: white;
+    position: absolute;
+}
+#welcome{
+    margin-left: -40px;
+    font-family: 'Arvo', serif;
+}
+#to{
+    padding-left: 10px;
+    font-family: 'Arvo', serif;
+}
+#delani{
+    margin-left: -60px;
+    font-family: 'Arvo', serif;
+}
+#paragraph1{
+    margin-left: -160px;
+    font-family: 'Arvo', serif;
+}
+#background-image2{
+    position: relative;
+    z-index: -2;
+    
+}
+#mouse-click{
+    padding-left: 25px;
+}
+@keyframes slide{
+    0% { transform: translateY(10%);}
+    50%{ transform: translateY(0%);}
+    100%{ transform: translateY(10%);}
+     }
+#mouse-click:hover{
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
