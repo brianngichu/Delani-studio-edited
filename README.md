@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * web-browser
 * internet connectivity
-* go to the link https://brianngichu.github.io/Delani-studio/.
+* go to the link https://brianngichu.github.io/Delani-studio-edited/
 * Go through our website
 
 ## Technologies Used
