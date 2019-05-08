@@ -78,3 +78,20 @@ body{
 .services > img{
     z-index:-2;
 }
+.whatWeDo{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 78%;
+    position: fixed;
+
+}
+.design-showing,.development-showing,.product-showing{
+    display: none;
+    width: 20%;
+}
