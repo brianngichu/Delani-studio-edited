@@ -90,7 +90,7 @@ body{
 .work{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
        
 }
 .design-showing,.development-showing,.product-showing{
